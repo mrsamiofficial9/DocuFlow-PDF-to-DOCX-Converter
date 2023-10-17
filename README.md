@@ -1,2 +1,12 @@
 # DocuFlow-PDF-to-DOCX-Converter
-DocuFlow is a powerful Python script that simplifies the process of converting text content from PDF files into DOCX format. With the use of the PyPDF2 library for PDF extraction and the python-docx library for Word document creation, this tool streamlines the transformation of PDF documents into editable Word files.
+This Python script converts text content from a PDF file to a DOCX (Microsoft Word) file. It utilizes the `PyPDF2` library to extract text from the PDF and the `python-docx` library to create and save a Word document.
+
+## Usage
+
+1. **Installation**: Ensure you have the necessary Python libraries installed:
+   ```bash
+   pip install PyPDF2 python-docx
+   ```
+2. **Using**: Ensure you have Python3 installed:
+   ```bash
+   python3 main.py
